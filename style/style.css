@@ -8,7 +8,6 @@
 }
 
 /* navbar start */
-
 .navbar{
     position: fixed;
     top: 0;
@@ -49,9 +48,9 @@
 
 .mobile-items{
     position: fixed;
-    top: 4.3rem;
+    top: -6rem;
     width: 100%;
-    height: 0rem;
+    height: 10rem;
     box-shadow: 0 0.5px 0.5px 0 rgb(0 0 0 / 46%);
     background: #52878c;
     display: flex;
@@ -83,7 +82,62 @@
     }
     .mobile-items.active{
         display: flex;
-        height: 10rem;
+        top: 4.3rem;
     }
 }
 /* navbar end */
+
+/* landing page start */
+
+.landing-container{
+    background-image: url(../static/hero-image.jpg);
+    background-size: cover;
+    height: 75vh;
+}
+
+.landing-page{
+    height: 75vh;
+    padding: 25px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.51);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+    color: white;
+    text-align: center;
+}
+
+.landing-page h1{
+    font-size: 32px;
+    text-shadow: 2px 1px black;    
+}
+
+.landing-page a{
+    width: 9.3rem;
+    height: 2.4rem;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 0.4rem;
+    border: none;
+    background: white;
+    color: black;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.353);
+}
+
+@media (max-width:580px) {
+    .landing-container{
+        height: 50vh;
+    }
+    .landing-page{
+        height: 50vh;
+    }
+    .landing-page h1{
+        font-size: 22px;
+        content: "something";
+    }
+}
