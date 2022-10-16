@@ -32,6 +32,10 @@ html{
     text-decoration: none;
 }
 
+.brand-logo img{
+    width: 75px;
+}
+
 .toggle{
   display: none;
   position: fixed;
