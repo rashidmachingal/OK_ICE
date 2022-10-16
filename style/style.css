@@ -25,13 +25,6 @@ html{
     z-index: 4;
 }
 
-.brand-logo a{
-    font-size: 25px;
-    color: #52878c;
-    font-weight: bold;
-    text-decoration: none;
-}
-
 .brand-logo img{
     width: 61px;
     height: 47px;
@@ -46,13 +39,20 @@ html{
 
 .nav-items ul{
     display: flex;
-    gap: 1rem;
     list-style-type: none;
+    gap: 1rem;
 }
 
 .nav-items li a{
     text-decoration: none;
-    color: black;
+    color: #418cd2;
+    font-weight: 600;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.nav-items a:hover{
+    border-bottom: 4px solid #418cd2e4;
 }
 
 .mobile-items{
@@ -61,7 +61,7 @@ html{
     width: 100%;
     height: 10rem;
     box-shadow: 0 0.5px 0.5px 0 rgb(0 0 0 / 46%);
-    background: #52878c;
+    background: #418cd2;
     display: flex;
     justify-content: center;
     transition: all ease-in 0.3s;
