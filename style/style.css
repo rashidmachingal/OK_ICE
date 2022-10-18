@@ -51,6 +51,10 @@ html{
     padding-bottom: 22px;
 }
 
+.active{
+    border-bottom: 4px solid #418cd2e4;
+}
+
 .nav-items a:hover{
     border-bottom: 4px solid #418cd2e4;
 }
@@ -94,6 +98,13 @@ html{
         top: 4.3rem;
     }
 }/* navbar end */
+
+/* page heading start */
+.page-heading-container{
+    background-image: url(../static/hero-image-2.jpg);
+    background-size: cover;
+    height: 20rem;
+}
 
 
 /* footer section start */
