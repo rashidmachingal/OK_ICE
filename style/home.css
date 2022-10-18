@@ -78,57 +78,89 @@
 .products-container{
     width: 100%;
     height: auto;
-    padding-top: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 1rem;
 }
 
-.products-row{
-    width: 90%;
-    margin-top: 1rem;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    flex-wrap: wrap;
+.products-container h2{
+    text-align: center;
+    margin-top: 0.6rem;
 }
 
-.products-row a{
+.products-container p{
+    text-align: center;
+    max-width: 45rem;
+    margin-top: 0.6rem;
+}
+
+.products-container a{
     text-decoration: none;
     color: black;
 }
 
 .product-box{
-    width: 20rem;
-    height: 16.6rem;
-    box-shadow: 0px 0px 2px 0.1px rgba(0, 0, 0, 0.248);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    margin-bottom: 0.6rem;
+    margin-top: 0.6rem;
+    width: 60rem;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 14px -7px rgb(0 0 0 / 36%);
+    border-radius: 50px;
 }
 
+.product-details{
+    width: 30rem;
+    padding: 25px;
+}
+
+.product-details h2{
+    font-weight: 400;
+    text-align: start;
+    margin-top: 1rem;
+    color: #418cd2;
+}
+
+.product-details p{
+    text-align: start;
+}
+
+.product-image{
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: green; */
+}
 
 .product-box img{
-    width: 100%;
+    width: 20rem;
     height: 12rem;
+    border-radius: 2rem;
 }
 
-.product-box h3{
-    font-weight: 600;
-    margin-top: 0.4rem;
-    text-align: center;
-}
-
-.product-box p{
-    margin-top: 0.4rem;
-    margin-left: 0.6rem;
-    text-align: center;
-}
-
-@media (max-width:580px) {
+@media (max-width:978px) {
     .product-box{
+
+        align-items: center;
+        width: 98%;
+        height: auto;
+    }
+    .product-details{
         width: 100%;
     }
-}/* our products end */
+    .product-image{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width:735px) {
+    .product-box{
+        flex-direction: column;
+    }
+}
+
+/* our products end */
 
