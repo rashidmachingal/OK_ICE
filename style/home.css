@@ -51,8 +51,8 @@
     }
 }/* landing page end */
 
-/* about-us start */
-.about-container{
+/* content start */
+.content-container{
     width: 100%;
     height: auto;
     background: #eef0f4;
@@ -64,9 +64,15 @@
     padding: 20px;
 }
 
-.about-para{
+.content-container.about{
+    border-bottom-right-radius: 25% 25%;
+    border-bottom-left-radius: 25% 25%;
+    box-shadow: 0 2px 5px 0.1px rgba(0, 0, 0, 0.103);
+}
+
+.content-para{
     max-width: 45rem;
-}/* about-us end */
+}/* content end */
 
 /* our products start */
 .products-container{
