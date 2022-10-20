@@ -100,10 +100,16 @@ html{
 }/* navbar end */
 
 /* page heading start */
-.page-heading-container{
+.heading-container{
     background-image: url(../static/hero-image-2.jpg);
     background-size: cover;
     height: 20rem;
+}
+
+.heading-title{
+    width: 100%;
+    height: 20rem;
+    background: rgba(0, 0, 0, 0.231);
 }
 
 
