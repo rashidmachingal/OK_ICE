@@ -1,55 +1,124 @@
 /* landing page start */
 .landing-container{
-    background-image: url(../static/hero-image-2.jpg);
-    background-size: cover;
-    height: 75vh;
-}
-
-.landing-page{
-    height: 75vh;
-    padding: 25px;
+    margin-top: 4.5rem;
     width: 100%;
-    /* background-color: rgba(0, 0, 0, 0.572); */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1.6rem;
-    text-align: center;
-}
-
-.landing-page h1{
-    font-size: 32px;
-    color:  #FFFDFA;
-    text-shadow: 0.5px 0.2px rgba(0, 0, 0, 0.768);
-}
-
-.landing-page a{
-    width: 9.3rem;
-    height: 2.4rem;   
+    height: 45rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
-    gap: 0.4rem;
-    border: none;
+}
+
+.landing-content{
+    width: 32rem;
+    height: 70%;
+}
+
+.landing-content h1{
+    font-size: 50px;
+    line-height: 60px;
+    color: #3386d5;
+}
+
+.landing-content-para{
+    margin-top: 1rem;
+    max-width: 97%;
+}
+
+.landing-content button{
+    margin-top: 1rem;
     background: #418cd2;
-    color: white;
-    border-radius: 25px;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 25%);
+    color: #fff;
+    font-size: 20px;
+    border-radius: 24px;
+    padding: 4px 20px;
+    cursor: pointer;
+    border: none;
 }
 
-@media (max-width:580px) {
+.social-proof{
+    margin-top: 3rem;
+}
+
+.social-proof div{
+    display: flex;
+    align-items: center;
+}
+
+.social-proof p{
+    padding-left: 10px;
+}
+
+.landing-images{
+    width: 32rem;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    gap: 0.3rem;
+}
+
+.bg{
+    background-position: center;
+    width: 12.5rem;
+    height: 100%;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 25%);
+}
+
+.bg-1{
+    background-image: url(../static/1.png);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.bg-2{
+    background-image: url(../static/2.png);
+}
+
+.bg-3{
+    background-image: url(../static/4.png);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+@media (max-width:1024px) {
     .landing-container{
-        height: 50vh;
+        flex-direction: column;
+        gap: 1rem;
     }
-    .landing-page{
-        height: 50vh;
+    .landing-content{
+        width: 100%;
+        height: auto;
+        padding-top: 2rem;
+        padding-left: 1rem;
     }
-    .landing-page h1{
-        font-size: 22px;
-        content: "something";
+    .landing-content h1{
+        font-size: 30px;
+        line-height: 32px;
     }
-}/* landing page end */
+    .landing-container br{
+        display: none;
+    }
+    .landing-images{
+        width: 100%;
+        height: 80%;
+        padding: 3px;
+    }
+}
+
+@media (max-width:600px) {
+    .bg{
+        width: 98%;
+        border-radius: 25px;
+    }
+    .bg-2{
+        display: none;
+    }
+    .bg-3{
+        display: none;
+    }
+}
+
+/* landing page end */
 
 /* content start */
 .content-container{
@@ -209,4 +278,3 @@
     max-height: 300px;
     padding: 5px;
 }
-
