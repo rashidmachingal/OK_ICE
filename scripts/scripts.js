@@ -1,10 +1,14 @@
 //navbar
-const toggleButton = document.getElementsByClassName("toggle")[0]
-const mobileItems = document.getElementsByClassName('mobile-items')[0]
+const toggleButton = document.getElementsByClassName("toggle")
+const navItems = document.getElementsByClassName('nav-items')[0]
 
-toggleButton.addEventListener("click",()=>{
-    mobileItems.classList.toggle("active")
-})
+for (let i = 0; i < toggleButton.length; i++) {
+    toggleButton[i].addEventListener("click",()=>{
+        navItems.classList.toggle("active")
+    })
+  }
+
+
 
 // faq
 const faqs = document.querySelectorAll(".faq")
