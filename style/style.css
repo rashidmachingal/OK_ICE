@@ -99,16 +99,44 @@ html{
 
 /* page heading start */
 .heading-container{
-    background-image: url(../static/hero-image-2.jpg);
+    background-image: url(../static/page-bg\ .png);
     background-size: cover;
-    height: 20rem;
+    margin-top: 4.5rem;
 }
 
 .heading-title{
     width: 100%;
-    height: 20rem;
+    height: 15rem;
     background: rgba(0, 0, 0, 0.231);
 }
+
+.heading-main{
+    width: 100%;
+    height: 15rem;
+    background: rgba(0, 0, 0, 0.332);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.heading-main p{
+    color: white;
+    font-weight: 400;
+}
+
+.bread-crumps{
+    padding-bottom: 2px;
+    border-bottom: 3.3px solid #418cd2;
+}
+
+.heading-main h2{
+    font-size: 32px;
+    color: white;
+}
+
+/* page heading end */
 
 
 /* footer section start */
