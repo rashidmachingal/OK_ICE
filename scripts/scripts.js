@@ -13,12 +13,15 @@ for (let i = 0; i < toggleButton.length; i++) {
 // faq
 const faqs = document.querySelectorAll(".faq")
 
-faqs.forEach(faq => {
-    faq.addEventListener("click", () => {
-        if(!faq.classList.contains("open")){
-            faqs.forEach(faq => {
-                faq.classList.remove('open');
-            })}
-        faq.classList.toggle("open")
+function handleOpen(num) {
+    const number = num.toString()
+    const n = document.getElementById(number)
+    faqs.forEach((faq,idx)=>{
+        if(idx+1===num){
+            n.classList.toggle("open")
+        }else{
+            faq.classList.remove("open")
+        }
+       
     })
-})
+}
