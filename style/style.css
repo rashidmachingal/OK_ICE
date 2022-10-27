@@ -155,7 +155,7 @@ html{
 /* footer box */
 .footer-box{
     width: 33.333%;
-    height: 20rem;
+    height: 22rem;
     padding-top: 2rem;  
     display: flex;
     flex-direction: column;
