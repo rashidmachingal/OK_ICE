@@ -133,6 +133,11 @@
     padding: 20px;
 }
 
+.content-container a{
+    color: #424242;
+    margin-left: 2px;
+    text-decoration: none;
+}
 
 .content-container h2{
     color: #424242;
