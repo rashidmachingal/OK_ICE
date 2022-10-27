@@ -30,6 +30,13 @@
     text-align: start;
 }
 
+.about-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 @media (max-width:1310px) {
     .about-container{
         justify-content: center;
@@ -43,6 +50,11 @@
         font-size: 23px;
     }
     .company-image{
+        width: 95%;
+        padding: 0;
+        padding-top: 25px;
+    }
+    .about-logo img{
         width: 100%;
     }
 }
