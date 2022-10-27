@@ -205,6 +205,11 @@ html{
     border-radius: 4px;
 }
 
+.footer-box a{
+    text-decoration: none;
+    color: white;
+}
+
 .footer-box button{
     background: #418cd2;
     border: none;
