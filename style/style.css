@@ -268,3 +268,25 @@ html{
         height: 33.333%;
     }
 }/* footer end */
+
+
+/* other page start */
+.page-container{
+    padding: 100px;
+    padding-top: 25px;
+}
+
+.page-container h1{
+    color: #424242;
+}
+
+.page-container h2{
+    margin-top: 1rem;
+    color: #424242;
+}
+@media (max-width:878px) {
+    .page-container{
+        padding: 25px;
+    }
+}
+/* other page end */
