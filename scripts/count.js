@@ -3,6 +3,6 @@
 <script>
 function myFunction() {
     // Call the function from your external JavaScript file
-    showAlert('Hello, world!');
+    console.log('Hello, world!');
 }
 </script>
